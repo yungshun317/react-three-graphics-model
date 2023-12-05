@@ -1,6 +1,7 @@
 import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import Model from "./Model";
+import Bike from "./Bike";
 
 const Scene = () => {
     return (
@@ -19,6 +20,8 @@ const Scene = () => {
             >
                 <Model />
             </Suspense>
+
+            <Bike scale={0.85} position={[-0.5, 0.75, 0]} />
         </>
     );
 };
