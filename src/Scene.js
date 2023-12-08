@@ -21,7 +21,7 @@ const Scene = () => {
                 <Model />
             </Suspense>
 
-            <Bike scale={0.85} position={[-0.5, 0.75, 0]} />
+            { /* <Bike scale={0.85} position={[-0.5, 0.75, 0]} /> */ }
         </>
     );
 };
